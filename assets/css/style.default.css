@@ -42,6 +42,18 @@ section {
     padding: 60px 0;
   }
 }
+@media (max-width: 220px) {
+  .heading
+   {
+    font-size:1em;
+    
+  }
+  .name{
+    font-size:0.5em;
+
+  }
+}
+
 
 .overlay {
   position: absolute;
@@ -61,7 +73,7 @@ section {
 .heading:after {
   content: " ";
   display: block;
-  width: 100px;
+  width: 1em;
   height: 1px;
   margin: 20px 0 20px;
   background: #555;
